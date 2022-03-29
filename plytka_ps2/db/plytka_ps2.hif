@@ -1,0 +1,162 @@
+Quartus II 32-bit
+Version 11.1 Build 259 01/25/2012 Service Pack 2 SJ Web Edition
+15
+1593
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+plytka_ps2
+# storage
+db|plytka_ps2.(0).cnf
+db|plytka_ps2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+plytka_ps2.vhd
+60c75c7fffab72e8753589d937bee
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# macro_sequence
+
+# end
+# entity
+ps2tocaesar
+# storage
+db|plytka_ps2.(3).cnf
+db|plytka_ps2.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ps2tocasear.vhd
+91f96d531efdc48649224a2eabd0238c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+ps2tocaesar:inst1
+}
+# macro_sequence
+
+# end
+# entity
+schemat_plytka_ps2
+# storage
+db|plytka_ps2.(1).cnf
+db|plytka_ps2.(1).cnf
+# case_insensitive
+# source_file
+schemat_plytka_ps2.bdf
+63881fe4115b21d67e2d9ac52cd0c9a5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Key2Ascii
+# storage
+db|plytka_ps2.(2).cnf
+db|plytka_ps2.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+key2ascii.vhd
+74a7cf63ec25dc61e17bcc09c93c2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+Key2Ascii:inst
+}
+# macro_sequence
+
+# end
+# entity
+ps2keyboard
+# storage
+db|plytka_ps2.(4).cnf
+db|plytka_ps2.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ps2keyboard.vhd
+e840e9a14bc9f773ea75778fd263d2e
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+ps2keyboard:inst3
+}
+# macro_sequence
+
+# end
+# complete
+
